@@ -44,6 +44,7 @@ tooltip {
     border-radius: 5px;
 }
 
+#taskbar,
 #custom-spotify,
 #privacy,
 #cpu,
@@ -80,6 +81,12 @@ tooltip {
     border-radius: 10px;
     margin-left: 60px;
     margin-right: 60px;
+}
+
+#taskbar{
+    color: #fab387;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 #privacy,

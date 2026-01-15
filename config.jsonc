@@ -116,8 +116,9 @@
   "network": {
       "format": "󰈀 {essid}",
       "format-wifi": "{icon}{frequency} 󰜷{bandwidthUpBytes} {bandwidthDownBytes}󰜮",
-      "format-ethernet": "󰈀 󰜷{bandwidthUpBytes} {bandwidthDownBytes}󰜮",
-      "tooltip-format-ethernet": "󰈀 {ipaddr}",
+      "format-ethernet": "󰈀 ",
+      "tooltip-format-ethernet": "󰈀 󰜷{bandwidthUpBytes} {bandwidthDownBytes}󰜮",
+    // "tooltip-format-ethernet": "󰈀 {ipaddr}",
       "format-disconnected": "",
       "tooltip-format-wifi": "{essid} ({signalStrength}%) {icon}",
       "tooltip-format-disconnected": "Disconnected",
@@ -125,8 +126,9 @@
           "default": ["󱚵", "󰖩"]
       },
       "interval" : 1,
-      "max-length": 50
-  },
+      "max-length": 50,
+      "tooltip-format":"{icon}{frequency} 󰜷{bandwidthUpBytes} {bandwidthDownBytes}󰜮",
+},
 
  "wireplumber": {
     "format": "{icon}  {volume}%",
